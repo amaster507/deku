@@ -1,0 +1,9 @@
+type t_error = any;
+type t_args = Record<string, any>[];
+type t_exp = Record<string, any>[];
+type t_variables = Record<string, any>[];
+type t_slice = Record<string, any>;
+type t_value = Record<string, any>;
+type t_writerInput = [writer: any, args: t_args];
+type t_writer = any;
+type t_queryPayload = [query: string, args: t_args, err: t_error];
